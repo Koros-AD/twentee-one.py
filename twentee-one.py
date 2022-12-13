@@ -22,7 +22,6 @@ def countcard1():
         elif card1=='ace':
             count1+=11
 countcard1()
-
 def countcard2():
     card2 = random.choice(deck)
     global count2
@@ -40,7 +39,6 @@ def countcard2():
         elif card2=='ace':
             count2+=11
 countcard2()
-
 def winwin():
  if count1>21:
     print("You busted!Dealer wins")
@@ -50,8 +48,8 @@ def winwin():
     print(f"You win!Your score is {count1} against {count2()}")
  elif count2>count2<21:
     print(f"You lose!Your score is {count1()} against {count2()}")
-
 # dealing cards
+
 def dealcard():
   card1=random.choice(deck)
   card2=random.choice(deck)
@@ -79,7 +77,3 @@ if answer=="Yes"or answer=="yes" or answer=="YES" or answer=="yES" or answer=="y
      newcards()
 elif answer=="No" or answer=="no" or answer=="NO":
      print("Goodbye.")
-
-
-
-

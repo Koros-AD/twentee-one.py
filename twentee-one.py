@@ -21,6 +21,7 @@ def countcard1():
             count1+=4
         elif card1=='ace':
             count1+=11
+            
 countcard1()
 def countcard2():
     card2 = random.choice(deck)
@@ -38,6 +39,7 @@ def countcard2():
             count2+=4
         elif card2=='ace':
             count2+=11
+            
 countcard2()
 def winwin():
  if count1>21:

@@ -82,10 +82,3 @@ elif answer.lower() == "no":
     print("Goodbye.")
 else:
     print("Invalid input. Goodbye.")
-
-
-
-
-
-
-
